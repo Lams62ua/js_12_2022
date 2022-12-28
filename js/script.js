@@ -12,9 +12,9 @@ const personalMovieDB = {
 };
 
 const a = prompt('The last film you whatch 1?', ''), 
-      b = prompt('How can you r.. it 1?', ''), 
-      c = prompt('How is your name? 2', ''), 
-      d = prompt('How can you r.. it 2?', ''); 
+      b = prompt('How can you rate it 1?', ''), 
+      c = prompt('The last film you whatch 2', ''), 
+      d = prompt('How can you rate it 2?', ''); 
 
 personalMovieDB.movies[a] = b; 
 personalMovieDB.movies[c] = d; 
